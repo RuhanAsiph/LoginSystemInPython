@@ -30,7 +30,7 @@ def user_not_found():
 	Label(window5, text="UserNotFound").pack()
 	Button(window5, text="OK", command=delete4).pack()
 
-#defining more classes
+#defining more functions
 def register_user():
 	username_info = username.get()
 	password_info = password.get()
